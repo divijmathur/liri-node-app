@@ -32,7 +32,7 @@ function movieThis(value) {
     }
     axios.get("https://www.omdbapi.com/?t=" + value + "&y=&plot=short&tomatoes=true&apikey=trilogy")
         .then(function (response) {
-            var movieResults = "\nMovie Title: " + response.data.Title + "\nYear of Release: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating  + "\nRotten Tomatoes Rating: " + response.data.tomatoRating + "\nCountry Produced: " + response.data.Country + "\nLanguage " + response.data.Language + "\nPlot: " + response.data.Plot + "\nActors/Actresses: " + response.data.Actors;
+            var movieResults = "\nMovie Title: " + response.data.Title + "\nYear of Release: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating  + "\nRotten Tomatoes Rating: " + response.data.Ratings[0].Value + "\nCountry Produced: " + response.data.Country + "\nLanguage " + response.data.Language + "\nPlot: " + response.data.Plot + "\nActors/Actresses: " + response.data.Actors;
             console.log(movieResults);
             fs.appendFile('./log.txt', command + ",", 'utf8', function(err){
                     console.log(err);
@@ -54,6 +54,9 @@ function concertThis(value) {
                     var concertResults = "\nVenue Name: " + response.data[i].venue.name + "\nVenue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region + "\nDate of the event: " + moment(response.data[i].datetime).format("MM-DD-YYYY");
                     console.log(concertResults);
                 }
+                fs.appendFile('./log.txt', command + ",", 'utf8', function(err){
+                    console.log(err);
+            });
             }
         })
         .catch(function (error) {
@@ -79,4 +82,7 @@ function spotifyThis(value) {
         console.log("Album " + data.tracks.items[0].album.name);
         }
     });
+    fs.appendFile('./log.txt', command + ",", 'utf8', function(err){
+        console.log(err);
+});
 }
