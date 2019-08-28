@@ -10,11 +10,11 @@ movie-this
 
 do-what-it-says
 
-Technologies Used
-Node.js
-JavaScript
-BandsinTown API (via BandsinTown npm module)
-Spotify API (via spotify npm module)
+Technologies Used - 
+Node.js,
+JavaScript,
+BandsinTown API (via BandsinTown npm module),
+Spotify API (via spotify npm module),
 OMDb API (via request npm module)
 
 Code Explanation
