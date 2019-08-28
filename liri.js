@@ -32,9 +32,9 @@ function movieThis(value) {
     }
     axios.get("https://www.omdbapi.com/?t=" + value + "&y=&plot=short&tomatoes=true&apikey=trilogy")
         .then(function (response) {
-            var movieResults = "\nMovie Title: " + response.data.Title + "\nYear of Release: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating  + "\nRotten Tomatoes Rating: " + response.data.Ratings[0].Value + "\nCountry Produced: " + response.data.Country + "\nLanguage " + response.data.Language + "\nPlot: " + response.data.Plot + "\nActors/Actresses: " + response.data.Actors;
+            var movieResults = "\nMovie Title: " + response.data.Title + "\nYear of Release: " + response.data.Year + "\nIMDB Rating: " + response.data.imdbRating  + "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value + "\nCountry Produced: " + response.data.Country + "\nLanguage " + response.data.Language + "\nPlot: " + response.data.Plot + "\nActors/Actresses: " + response.data.Actors;
             console.log(movieResults);
-            fs.appendFile('./log.txt', command + ",", 'utf8', function(err){
+            fs.appendFile('./log.txt', command + movieResults+ "\n", 'utf8', function(err){
                     console.log(err);
             });
         })
@@ -54,7 +54,7 @@ function concertThis(value) {
                     var concertResults = "\nVenue Name: " + response.data[i].venue.name + "\nVenue Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region + "\nDate of the event: " + moment(response.data[i].datetime).format("MM-DD-YYYY");
                     console.log(concertResults);
                 }
-                fs.appendFile('./log.txt', command + ",", 'utf8', function(err){
+                fs.appendFile('./log.txt', command + concertResults + "\n", 'utf8', function(err){
                     console.log(err);
             });
             }
@@ -76,13 +76,15 @@ function spotifyThis(value) {
             return console.log(err);
         }
         else {
-        console.log("Artist: " + data.tracks.items[0].artists[0].name);
-        console.log("Song name: " + data.tracks.items[0].name);
-        console.log("Preview on Spotify " + data.tracks.items[0].uri);
-        console.log("Album " + data.tracks.items[0].album.name);
+        var artistResults =
+        "Artist: " + data.tracks.items[0].artists[0].name +
+        "Song name: " + data.tracks.items[0].name +
+        "Preview on Spotify " + data.tracks.items[0].uri +
+        "Album " + data.tracks.items[0].album.name +
+        console.log(artistResults);
         }
     });
-    fs.appendFile('./log.txt', command + ",", 'utf8', function(err){
+    fs.appendFile('./log.txt', command + artistResults + "\n", 'utf8', function(err){
         console.log(err);
 });
 }
