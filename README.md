@@ -13,9 +13,9 @@ do-what-it-says
 Technologies Used
 Node.js
 JavaScript
-OMDB API (via OMDB npm module)
+BandsinTown API (via BandsinTown npm module)
 Spotify API (via spotify npm module)
-BandsinTown API (via request npm module)
+OMDb API (via request npm module)
 
 Code Explanation
 
