@@ -7,3 +7,80 @@ Country Produced: USA
 Language English, Swedish, Italian
 Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
 Actors/Actresses: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+movie-this
+Movie Title: Titanic
+Year of Release: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 89%
+Country Produced: USA
+Language English, Swedish, Italian
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors/Actresses: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+spotify-this-songArtist: Ariana GrandeSong name: imaginePreview on Spotify spotify:track:39LmTF9RgyakzSYX8txrowAlbum thank u, nextundefined
+spotify-this-songArtist: Quality ControlSong name: BabyPreview on Spotify spotify:track:2nKYHpmwjLaEOXS3o7QMizAlbum Babyundefined
+movie-this
+Movie Title: Titanic
+Year of Release: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 89%
+Country Produced: USA
+Language English, Swedish, Italian
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors/Actresses: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+concert-this
+Venue Name: KAOS Vegas
+Venue Location: Las Vegas, NV
+Date of the event: 09-27-2019
+spotify-this-songArtist: Ariana GrandeSong name: imaginePreview on Spotify spotify:track:39LmTF9RgyakzSYX8txrowAlbum thank u, nextundefined
+spotify-this-songArtist: Ariana GrandeSong name: imaginePreview on Spotify spotify:track:39LmTF9RgyakzSYX8txrowAlbum thank u, next
+spotify-this-song
+Artist: Ariana Grande
+Song name: imagine
+Preview on Spotify spotify:track:39LmTF9RgyakzSYX8txrow
+Album thank u, next
+movie-this
+Movie Title: Titanic
+Year of Release: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 89%
+Country Produced: USA
+Language English, Swedish, Italian
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors/Actresses: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+concert-this
+Venue Name: KAOS Vegas
+Venue Location: Las Vegas, NV
+Date of the event: 09-27-2019
+do-what-it-says
+Artist: Backstreet Boys
+Song name: I Want It That Way
+Preview on Spotify spotify:track:6e40mgJiCid5HRAGrbpGA6
+Album The Hits--Chapter One
+spotify-this-song
+Artist: AL-X The Great
+Song name: Rocketman (feat. Atlas & Lando!)
+Preview on Spotify spotify:track:2oHDXaIgFkD41mkocZKMKC
+Album Rocketman (feat. Atlas & Lando!)
+movie-this
+Movie Title: Titanic
+Year of Release: 1997
+IMDB Rating: 7.8
+Rotten Tomatoes Rating: 89%
+Country Produced: USA
+Language English, Swedish, Italian
+Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+Actors/Actresses: Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates
+concert-this
+Venue Name: KAOS Vegas
+Venue Location: Las Vegas, NV
+Date of the event: 09-27-2019
+do-what-it-says
+Artist: Backstreet Boys
+Song name: I Want It That Way
+Preview on Spotify spotify:track:6e40mgJiCid5HRAGrbpGA6
+Album The Hits--Chapter One
+spotify-this-song
+Artist: Ariana Grande
+Song name: imagine
+Preview on Spotify spotify:track:39LmTF9RgyakzSYX8txrow
+Album thank u, next

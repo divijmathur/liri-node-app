@@ -76,15 +76,11 @@ function spotifyThis(value) {
             return console.log(err);
         }
         else {
-        var artistResults =
-        "Artist: " + data.tracks.items[0].artists[0].name +
-        "Song name: " + data.tracks.items[0].name +
-        "Preview on Spotify " + data.tracks.items[0].uri +
-        "Album " + data.tracks.items[0].album.name +
+        var artistResults = "\nArtist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name + "\nPreview on Spotify " + data.tracks.items[0].uri + "\nAlbum " + data.tracks.items[0].album.name
         console.log(artistResults);
         }
+        fs.appendFile('./log.txt', command + artistResults + "\n", 'utf8', function(err){
+            console.log(err);
     });
-    fs.appendFile('./log.txt', command + artistResults + "\n", 'utf8', function(err){
-        console.log(err);
 });
 }
